@@ -40,6 +40,9 @@ jobs:
       - name: Launch Web Service
         run: docker-compose up -d
 
+      - name: Set script execution permissions
+        run: chmod +x wait-for-webserver.sh
+
       - name: Wait for Web Service to start
         run: ./wait-for-webserver.sh
 
