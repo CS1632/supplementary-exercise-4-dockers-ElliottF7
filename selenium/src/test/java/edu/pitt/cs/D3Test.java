@@ -26,6 +26,7 @@ import java.util.*;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.time.Duration;
+import org.openqa.selenium.chrome.ChromeOptions;
 
 import org.junit.FixMethodOrder;
 import org.junit.runners.MethodSorters;
